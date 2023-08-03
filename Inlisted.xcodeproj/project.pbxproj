@@ -24,6 +24,7 @@
 		4175061B2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175061A2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift */; };
 		4175061D2A7B7A89003A8D70 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175061C2A7B7A89003A8D70 /* LoginView.swift */; };
 		41C5B9F42A7B7AC6001CA0A5 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5B9F32A7B7AC6001CA0A5 /* SignupView.swift */; };
+		41C5B9F72A7B9B9C001CA0A5 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 41C5B9F62A7B9B9C001CA0A5 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C5B9F72A7B9B9C001CA0A5 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +175,9 @@
 			dependencies = (
 			);
 			name = Inlisted;
+			packageProductDependencies = (
+				41C5B9F62A7B9B9C001CA0A5 /* Algorithms */,
+			);
 			productName = Inlisted;
 			productReference = 417505DF2A7B7096003A8D70 /* Inlisted.app */;
 			productType = "com.apple.product-type.application";
@@ -245,6 +250,10 @@
 				Base,
 			);
 			mainGroup = 417505D62A7B7096003A8D70;
+			packageReferences = (
+				41C5B9F52A7B9B9C001CA0A5 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				41C5B9FA2A7B9D10001CA0A5 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 417505E02A7B7096003A8D70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -628,6 +637,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41C5B9F52A7B9B9C001CA0A5 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		41C5B9FA2A7B9D10001CA0A5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41C5B9F62A7B9B9C001CA0A5 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C5B9F52A7B9B9C001CA0A5 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 417505D72A7B7096003A8D70 /* Project object */;
 }
