@@ -6,19 +6,39 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: LoginView()) {
+                    Text("Log In")
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination: SignUpView()) {
+                    Text("Sign Up")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+
+
+
+
+
+
+
+
+
+
+

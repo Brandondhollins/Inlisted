@@ -14,6 +14,16 @@
 		417505F42A7B7098003A8D70 /* InlistedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417505F32A7B7098003A8D70 /* InlistedTests.swift */; };
 		417505FE2A7B7098003A8D70 /* InlistedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417505FD2A7B7098003A8D70 /* InlistedUITests.swift */; };
 		417506002A7B7098003A8D70 /* InlistedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417505FF2A7B7098003A8D70 /* InlistedUITestsLaunchTests.swift */; };
+		4175060D2A7B79B4003A8D70 /* JobSeekerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175060C2A7B79B4003A8D70 /* JobSeekerHomeView.swift */; };
+		4175060F2A7B79C5003A8D70 /* BusinessHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175060E2A7B79C5003A8D70 /* BusinessHomeView.swift */; };
+		417506112A7B79DE003A8D70 /* BusinessOnboarding1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417506102A7B79DE003A8D70 /* BusinessOnboarding1View.swift */; };
+		417506132A7B79EE003A8D70 /* BusinessOnboarding2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417506122A7B79EE003A8D70 /* BusinessOnboarding2View.swift */; };
+		417506152A7B7A02003A8D70 /* BusinessOnboarding3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417506142A7B7A02003A8D70 /* BusinessOnboarding3View.swift */; };
+		417506172A7B7A15003A8D70 /* JobSeekerOnboarding1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417506162A7B7A15003A8D70 /* JobSeekerOnboarding1View.swift */; };
+		417506192A7B7A29003A8D70 /* JobSeekerOnboarding2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417506182A7B7A29003A8D70 /* JobSeekerOnboarding2View.swift */; };
+		4175061B2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175061A2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift */; };
+		4175061D2A7B7A89003A8D70 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175061C2A7B7A89003A8D70 /* LoginView.swift */; };
+		41C5B9F42A7B7AC6001CA0A5 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5B9F32A7B7AC6001CA0A5 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		417505F92A7B7098003A8D70 /* InlistedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InlistedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417505FD2A7B7098003A8D70 /* InlistedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlistedUITests.swift; sourceTree = "<group>"; };
 		417505FF2A7B7098003A8D70 /* InlistedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlistedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4175060C2A7B79B4003A8D70 /* JobSeekerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekerHomeView.swift; sourceTree = "<group>"; };
+		4175060E2A7B79C5003A8D70 /* BusinessHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessHomeView.swift; sourceTree = "<group>"; };
+		417506102A7B79DE003A8D70 /* BusinessOnboarding1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOnboarding1View.swift; sourceTree = "<group>"; };
+		417506122A7B79EE003A8D70 /* BusinessOnboarding2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOnboarding2View.swift; sourceTree = "<group>"; };
+		417506142A7B7A02003A8D70 /* BusinessOnboarding3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOnboarding3View.swift; sourceTree = "<group>"; };
+		417506162A7B7A15003A8D70 /* JobSeekerOnboarding1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekerOnboarding1View.swift; sourceTree = "<group>"; };
+		417506182A7B7A29003A8D70 /* JobSeekerOnboarding2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekerOnboarding2View.swift; sourceTree = "<group>"; };
+		4175061A2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekerOnboarding3View.swift; sourceTree = "<group>"; };
+		4175061C2A7B7A89003A8D70 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		41C5B9F32A7B7AC6001CA0A5 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,16 @@
 			isa = PBXGroup;
 			children = (
 				417505E22A7B7096003A8D70 /* InlistedApp.swift */,
+				4175060C2A7B79B4003A8D70 /* JobSeekerHomeView.swift */,
+				4175060E2A7B79C5003A8D70 /* BusinessHomeView.swift */,
+				417506102A7B79DE003A8D70 /* BusinessOnboarding1View.swift */,
+				417506122A7B79EE003A8D70 /* BusinessOnboarding2View.swift */,
+				417506142A7B7A02003A8D70 /* BusinessOnboarding3View.swift */,
+				417506162A7B7A15003A8D70 /* JobSeekerOnboarding1View.swift */,
+				417506182A7B7A29003A8D70 /* JobSeekerOnboarding2View.swift */,
+				4175061A2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift */,
+				41C5B9F32A7B7AC6001CA0A5 /* SignupView.swift */,
+				4175061C2A7B7A89003A8D70 /* LoginView.swift */,
 				417505E42A7B7096003A8D70 /* ContentView.swift */,
 				417505E62A7B7098003A8D70 /* Assets.xcassets */,
 				417505E82A7B7098003A8D70 /* Preview Content */,
@@ -257,6 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C5B9F42A7B7AC6001CA0A5 /* SignupView.swift in Sources */,
+				417506192A7B7A29003A8D70 /* JobSeekerOnboarding2View.swift in Sources */,
+				417506152A7B7A02003A8D70 /* BusinessOnboarding3View.swift in Sources */,
+				417506132A7B79EE003A8D70 /* BusinessOnboarding2View.swift in Sources */,
+				417506172A7B7A15003A8D70 /* JobSeekerOnboarding1View.swift in Sources */,
+				4175061B2A7B7A3A003A8D70 /* JobSeekerOnboarding3View.swift in Sources */,
+				4175060D2A7B79B4003A8D70 /* JobSeekerHomeView.swift in Sources */,
+				417506112A7B79DE003A8D70 /* BusinessOnboarding1View.swift in Sources */,
+				4175060F2A7B79C5003A8D70 /* BusinessHomeView.swift in Sources */,
+				4175061D2A7B7A89003A8D70 /* LoginView.swift in Sources */,
 				417505E52A7B7096003A8D70 /* ContentView.swift in Sources */,
 				417505E32A7B7096003A8D70 /* InlistedApp.swift in Sources */,
 			);
