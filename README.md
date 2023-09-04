@@ -6,8 +6,7 @@
 3. [Installation](#installation)
 4. [How to Use](#how-to-use)
 5. [Technology Stack](#technology-stack)
-6. [Feedback and Contributions](#feedback-and-contributions)
-7. [License](#license)
+6. [License](#license)
 
 ---
 
@@ -72,12 +71,6 @@ _For a comprehensive user guide, visit [our wiki](wiki-link)._
 
 ---
 
-## Feedback and Contributions
-
-We are continually working to improve Individualist based on user feedback and market trends. Feel free to [open an issue](issue-link) or submit a pull request.
-
----
-
 ## License
 
 Individualist is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
@@ -86,4 +79,3 @@ Individualist is licensed under the MIT License. See [LICENSE.md](LICENSE.md) fo
 
 Thank you for considering Individualist as your go-to platform for flexible employment opportunities. Your support and feedback are instrumental in shaping a future where work is truly adapted to individual needs.
 
-[To Be Continued]
